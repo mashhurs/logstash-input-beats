@@ -1,5 +1,5 @@
 ## 6.5.0
-  - An enrichment `enrich` option added to control ECS passthrough. `ssl_peer_metadata` and `include_codec_tag` configurations are deprecated and can be managed through the `enrich`  [#464](https://github.com/logstash-plugins/logstash-input-beats/pull/464)
+  - An enrichment `enrich` option added to control ECS passthrough. `ssl_peer_metadata` and `include_codec_tag` configurations are deprecated in favor of `enrich`  [#464](https://github.com/logstash-plugins/logstash-input-beats/pull/464)
 
 ## 6.4.3
   - [DOC] `executor_threads` default value explanation updated. [#461](https://github.com/logstash-plugins/logstash-input-beats/pull/461)
